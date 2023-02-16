@@ -1,30 +1,28 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: redcarpet
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
-
+permalink: pretty
 
 # Setup
-title:            Kartik Jagdale
-tagline:          'A Personal Technical/ Non-Technical Blog'
-description: 'Angular 15+, TypeScript, JavaScript, Ngrx Store, Micro Frontends, Web Components'
+title: Kartik Jagdale
+tagline: "A Personal Technical/ Non-Technical Blog"
+description: "Angular 15+, TypeScript, JavaScript, Ngrx Store, Micro Frontends, Web Components"
 url: https://kartikjagdale.github.io
 baseurl: /
 
 author:
-  name:           'Kartik Jagdale'
-  url:            https://twitter.com/kartikjagdale11
+  name: "Kartik Jagdale"
+  url: https://twitter.com/kartikjagdale11
 
-
-paginate:         5
+paginate: 5
 
 # Custom vars
-version:          1.0.0
+version: 1.0.0
 
 defaults:
-# Configs for SECTION : TechBlogs
+  # Configs for SECTION : TechBlogs
   - scope:
       path: blogs/high-level-system-design
     values:
@@ -34,7 +32,7 @@ defaults:
       path: blogs/low-level-system-design
     values:
       subsection: low-level-system-design
-  
+
   - scope:
       path: blogs/angular
     values:
