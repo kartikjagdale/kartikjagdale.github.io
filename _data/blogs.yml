@@ -1,0 +1,14 @@
+- title: High Level System Design
+  slug: high-level-system-design
+  topics:
+    - title: High Level System Design Basics
+      slug: hld-basics
+    - title: Pastebin System Design
+      slug: pastebin-system-design
+- title: Low Level System Design
+  slug: low-level-system-design
+  topics:
+    - title:  Low Level System Design Basics
+      slug: lld-basics
+- title: Angular
+  slug: angular

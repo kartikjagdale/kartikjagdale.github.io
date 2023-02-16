@@ -1,0 +1,6 @@
+**/.DS_Store
+.idea/
+Gemfile.lock
+_site/
+test.txt
+.jekyll-metadata

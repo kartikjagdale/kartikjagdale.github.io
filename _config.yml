@@ -1,0 +1,47 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            Kartik Jagdale
+tagline:          'A Personal Technical/ Non-Technical Blog'
+description: 'Angular 15+, TypeScript, JavaScript, Ngrx Store, Micro Frontends, Web Components'
+baseurl:          /
+
+author:
+  name:           'Kartik Jagdale'
+  url:            https://twitter.com/kartikjagdale11
+
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+defaults:
+# Configs for SECTION : TechBlogs
+  - scope:
+      path: blogs/high-level-system-design
+    values:
+      subsection: high-level-system-design
+
+  - scope:
+      path: blogs/low-level-system-design
+    values:
+      subsection: low-level-system-design
+  
+  - scope:
+      path: blogs/angular
+    values:
+      subsection: angular
+
+  - scope:
+      path: blogs
+    values:
+      section: blogs
+      navlink: blogs
+      comments: true

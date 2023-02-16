@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<h1>Blogs</h1>
+<ul>
+  {% for section in site.data.blogs %}
+  <li>
+    <h4>{{ section.title }}</h4>
+    <ul style="list-style-type: square;">
+      {% for topic in section.topics %}
+      <li>
+        <a href="{{section.slug}}/{{subsection.slug}}{{topic.slug}}">
+          {{topic.title}}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
