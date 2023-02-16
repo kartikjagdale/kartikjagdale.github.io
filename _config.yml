@@ -11,7 +11,7 @@ title:            Kartik Jagdale
 tagline:          'A Personal Technical/ Non-Technical Blog'
 description: 'Angular 15+, TypeScript, JavaScript, Ngrx Store, Micro Frontends, Web Components'
 url: https://kartikjagdale.github.io
-
+baseurl: /
 
 author:
   name:           'Kartik Jagdale'
