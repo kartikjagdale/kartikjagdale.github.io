@@ -10,5 +10,11 @@
   topics:
     - title:  Low Level System Design Basics
       slug: lld-basics
+- title: Javascript Brain Boosters (JS Code Challenges)
+  slug: javascript-brain-boosters
+  topics:
+    - title:  Promise.all() polyfill
+      slug: promise-all-polyfill
+
 - title: Angular
   slug: angular
