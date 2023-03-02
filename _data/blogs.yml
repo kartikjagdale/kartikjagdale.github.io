@@ -1,20 +1,26 @@
-- title: High Level System Design
-  slug: high-level-system-design
-  topics:
-    - title: High Level System Design Basics
-      slug: hld-basics
-    - title: Pastebin System Design
-      slug: pastebin-system-design
-- title: Low Level System Design
-  slug: low-level-system-design
-  topics:
-    - title:  Low Level System Design Basics
-      slug: lld-basics
+# - title: High Level System Design
+#   slug: high-level-system-design
+#   topics:
+#     - title: High Level System Design Basics
+#       slug: hld-basics
+#     - title: Pastebin System Design
+#       slug: pastebin-system-design
+# - title: Low Level System Design
+#   slug: low-level-system-design
+#   topics:
+#     - title:  Low Level System Design Basics
+#       slug: lld-basics
 - title: Javascript Brain Boosters (JS Code Challenges)
   slug: javascript-brain-boosters
   topics:
     - title:  Promise.all() polyfill
       slug: promise-all-polyfill
+- title: Software Architecture
+  slug: software-architecture
+  topics:
+    - title: State is Granular
+      slug: state-is-granular
 
-- title: Angular
-  slug: angular
+
+# - title: Angular
+#   slug: angular
