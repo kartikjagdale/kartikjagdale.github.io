@@ -3,3 +3,8 @@
   img: /path/to/blogs/img
   slug: blogs
 
+- title: papershelf
+  description: Blogs on various different technologies, computer science fundamentals, computer languages and many more, properly categorised with proper documentation and code imeplementation.
+  img: /path/to/blogs/img
+  slug: papershelf
+

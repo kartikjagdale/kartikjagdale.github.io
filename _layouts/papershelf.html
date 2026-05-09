@@ -1,0 +1,30 @@
+---
+layout: default
+title: Papershelf
+permalink: /papershelf/
+---
+
+<h1>Papershelf</h1>
+<p>{{ site.data.papershelf.introduction }}</p>
+
+<ul>
+  {% assign notes = site.data.papers.entries | where: "has_notes", true %}
+  {% for paper in notes %}
+    <li>
+      {{ paper.date | date: "%b %d, %Y" }} :
+      <a href="{{ paper.url }}">{{ paper.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+<p>{{ site.data.papers.notes_separator }}</p>
+
+<ul>
+  {% assign links = site.data.papers.entries | where: "has_notes", false %}
+  {% for paper in links %}
+    <li>
+      {{ paper.date | date: "%b %d, %Y" }} :
+      <a href="{{ paper.url }}">{{ paper.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

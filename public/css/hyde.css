@@ -248,3 +248,39 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+.pipeline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4em;
+  font-style: italic;
+}
+
+.pipeline span:not(.pipeline-arrow) {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.15em 0.55em;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.pipeline-arrow {
+  color: #999;
+  font-style: normal;
+  font-size: 0.85rem;
+}
+
+.sidebar-divider {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin: 1em 0;
+}
+
+.sidebar-desc {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0 0 0.4em;
+  line-height: 1.4;
+}

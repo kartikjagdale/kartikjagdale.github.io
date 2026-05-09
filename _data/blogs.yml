@@ -20,6 +20,15 @@
   topics:
     - title: State is Granular
       slug: state-is-granular
+    - type: series
+      title: "RBAC Deep Dive: Multi-Tenant Access Control"
+      posts:
+        - title: Where RBAC Breaks — A Small-Business Story
+          slug: where-rbac-breaks
+        - title: The Three Axes — Tenant × Module × Hat
+          slug: rbac-three-axes-schema
+        - title: Polymorphic Onboarding & Capability Matrix
+          slug: polymorphic-onboarding-capability-matrix
 
 
 # - title: Angular

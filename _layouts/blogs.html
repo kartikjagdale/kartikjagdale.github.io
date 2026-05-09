@@ -8,11 +8,22 @@ layout: default
     <h4>{{ section.title }}</h4>
     <ul style="list-style-type: square;">
       {% for topic in section.topics %}
-      <li>
-        <a href="{{section.slug}}/{{subsection.slug}}{{topic.slug}}">
-          {{topic.title}}
-        </a>
-      </li>
+        {% if topic.type == "series" %}
+        <li>
+          <span style="font-weight: 600;">{{ topic.title }}</span>
+          <ol style="list-style-type: decimal; margin-top: 0.25em;">
+            {% for post in topic.posts %}
+            <li>
+              <a href="{{ section.slug }}/{{ post.slug }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+          </ol>
+        </li>
+        {% else %}
+        <li>
+          <a href="{{ section.slug }}/{{ topic.slug }}">{{ topic.title }}</a>
+        </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </li>

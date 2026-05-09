@@ -1,0 +1,11 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:latest
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+    command: jekyll serve --watch --host 0.0.0.0 --force_polling
+    environment:
+      - JEKYLL_ENV=development
+    tty: true

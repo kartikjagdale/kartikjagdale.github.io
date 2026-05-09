@@ -9,7 +9,9 @@ permalink:        pretty
 # Setup
 title:            Kartik Jagdale
 tagline:          'A Personal Technical/ Non-Technical Blog'
-description: 'Angular 15+, TypeScript, JavaScript, Ngrx Store, Micro Frontends, Web Components'
+description: 'Senior Frontend Engineer (Angular, TypeScript, NgRx, Nx MonoRepo). Shipping AI-agentic workflows: Building with Claude Code, MCP servers, custom agent skills, hooks.'
+description_line1: 'Senior Frontend Engineer (Angular, TypeScript, NgRx, Nx MonoRepo).'
+description_line2: 'Shipping AI-agentic workflows: Building with Claude Code, MCP servers, custom agent skills, hooks.'
 baseurl:          /
 
 author:

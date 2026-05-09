@@ -6,9 +6,11 @@
           {{ site.title }}
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <p class="sidebar-desc">{{ site.description_line1 }}</p>
+      <p class="sidebar-desc">{{ site.description_line2 }}</p>
     </div>
 
+    <hr class="sidebar-divider">
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
@@ -27,7 +29,9 @@
       {% endfor %} -->
 
       <a class="sidebar-nav-item" href="/blogs">Blogs</a>
+      <a class="sidebar-nav-item" href="/papershelf">Papershelf</a>
       <a class="sidebar-nav-item" href="/resume">Resume</a>
+      <a class="sidebar-nav-item" href="https://www.linkedin.com/in/kartikjagdale/details/certifications/" target="_blank">Certifications</a>
       <a class="sidebar-nav-item" href="https://github.com/kartikjagdale" target="_blank">GitHub</a>
     </nav>
   </div>

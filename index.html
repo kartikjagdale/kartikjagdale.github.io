@@ -17,25 +17,81 @@ title: Home
 <main>
   <section>
     <h2>About Me</h2>
-    <p>
-      I'm interested in Frontend Engineering and currently learning System
-      Design.
-    </p>
-  </section>
 
-  <section>
-    <h2>Github Stats</h2>
     <p>
-      <img
-        src="https://github-readme-stats.vercel.app/api?username=kartikjagdale&show_icons=true&theme=default&count_private=true"
-        alt="Kartik's GitHub stats"
-      />
+      Hi, I'm Kartik. Senior Frontend Engineer, 10+ years, based in Amsterdam.
+    </p>
+
+    <h4>Engineering with AI agents</h4>
+    <p>
+      Most of my recent curiosity has gone here. On a side-project (a small
+      SaaS I'm building from scratch), I moved past the "Claude as autocomplete"
+      phase and started designing the workflow itself.
     </p>
     <p>
-      <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=kartikjagdale&layout=compact&hide=html,css"
-        alt="Kartik's top languages"
-      />
+      I built a custom MCP server (in Go) that exposes the
+      backend's schema (endpoints, types, auth) to the frontend agents in a
+      sibling repo, so the AI on one side can introspect the other without
+      reading source code.
+    </p>
+    <p>
+      On top of that, I wrote 10 Claude Code skills that orchestrate work as a pipeline:
+    </p>
+    <p class="pipeline">
+      <span>orient</span>
+      <span class="pipeline-arrow">></span>
+      <span>brainstorm</span>
+      <span class="pipeline-arrow">></span>
+      <span>groom</span>
+      <span class="pipeline-arrow">></span>
+      <span>execute</span>
+      <span class="pipeline-arrow">></span>
+      <span>spawn-epic</span>
+    </p>
+    <p>
+      A PreToolUse hook blocks commits when the phase gate
+      (build, test, lint) fails, and 13 per-module <code>CLAUDE.md</code>
+      files auto-load whenever an agent descends into the right folder.
+    </p>
+    <p>
+      The whole thing runs on a stateless context-engineering pattern I
+      designed: state lives in the filesystem (folder = state), logs are
+      append-only, and a two-layer constitution (workspace plus epic) keeps
+      multiple initiatives from drifting. I'm writing it up as a long-form
+      blog post.
+    </p>
+    <p>
+      At work I apply the same playbook: GitLab MR review automation, agent
+      tools, custom skills, and hooks for internal workflows.
+    </p>
+
+    <h4>Tech I lean on</h4>
+    <p>
+      Angular, TypeScript, RxJS, NgRx, Nx monorepo, Web Components, SCSS.
+      PostgreSQL and Go on the side-project side.
+    </p>
+
+    <h4>People side</h4>
+    <p>
+      I completed Google's
+      <a href="https://www.coursera.org/account/accomplishments/specialization/2Y4LLD6N0Q4D" target="_blank">People
+        Management Essentials</a> specialization on Coursera (SMART goals,
+      coaching, feedback, building team culture). Across roles I've mentored
+      juniors and interns, owned onboarding for new hires, run code reviews,
+      and prioritized P0 defects across teams. The people work matters to me
+      as much as the code.
+    </p>
+
+    <h4>Recent learning</h4>
+    <p>
+      Anthropic's <a href="https://verify.skilljar.com/c/8p89aw964v2z" target="_blank"><em>Claude Code in Action</em></a>: tool integration, context
+      management, MCP servers, custom hooks, and GitHub workflow automation.
+      Recommended if you're shipping code with AI assistants daily.
+    </p>
+
+    <p>
+      More on the <a href="/blogs">Blogs</a> page, or grab the
+      <a href="/resume">Resume</a>.
     </p>
   </section>
 </main>
