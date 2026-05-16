@@ -10,6 +10,11 @@
 #   topics:
 #     - title:  Low Level System Design Basics
 #       slug: lld-basics
+- title: AI Workflow
+  slug: ai-workflow
+  topics:
+    - title: How to ring the terminal bell when Claude Code pauses and is waiting for the user to approve a tool use or is waiting for next instructions
+      slug: ring-terminal-bell-when-claude-code-pauses
 - title: Javascript Brain Boosters (JS Code Challenges)
   slug: javascript-brain-boosters
   topics:
